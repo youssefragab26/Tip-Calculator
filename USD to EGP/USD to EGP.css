@@ -1,0 +1,50 @@
+ body{
+     background-color: #1e1f22;
+     color: white;
+ }
+.dollar{
+    padding: 10px;
+    margin-right: 10px;
+    border: 3px solid #609872;
+    border-radius: 10px;
+    background-color: #18191b;
+    color: white;
+}
+.pound{
+    padding: 10px;
+    margin-left: 10px;
+    border: 3px solid #ceae9e;
+    border-radius: 10px;
+    background-color: #18191b;
+    color: white;
+
+}
+.DP{
+    text-align: center;
+    align-items: center;
+    margin-top: 70px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container{
+    background-color: #2b2d30;
+    border-radius: 32px;
+}
+h1{
+    margin-top: 20px;
+    text-align: center;
+}
+ a{
+     text-decoration: none;
+     color: inherit;
+ }
+ .sun{
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .up{
+     color: rgba(255, 255, 255, 0.45);
+     text-align: center;
+ }
