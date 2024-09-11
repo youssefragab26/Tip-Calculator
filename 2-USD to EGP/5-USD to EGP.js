@@ -1,5 +1,5 @@
-let dollarprice = 48.53 ;
-let poundprice = 0.0205 ;
+let dollarprice = 48.32 ;
+let poundprice = 0.0206 ;
 
 let dollar = document.getElementById("dollar");
 let pound = document.getElementById("pound");
