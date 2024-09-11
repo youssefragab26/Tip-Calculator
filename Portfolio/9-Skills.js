@@ -23,14 +23,14 @@ function element(name, age, imageSrc) {
 
     //Style
     document.body.style.fontFamily = "Arial";
-    document.body.style.backgroundColor = "#061007";
+    document.body.style.backgroundColor = "#155263";
     card.style.width = '200px';
-    card.style.background = '#ccb79f';
+    card.style.background = '#ff6f3c';
     card.style.color = '#303030';
     card.style.padding = '10px';
     card.style.margin = '5px';
     card.style.display = 'inline-block';
-    card.style.border = '3px solid #303030'
+    card.style.border = '3px solid #ff9a3c'
     card.style.borderRadius = '9px';
 
     img.style.width = '100%';
