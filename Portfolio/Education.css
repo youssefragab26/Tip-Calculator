@@ -1,0 +1,29 @@
+.A1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 0px;
+    gap: 10px;
+}
+.B1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.nav {
+    text-align: center;
+    align-items: center;
+    margin-right: 425px;
+    margin-left: 425px;
+    overflow: hidden;
+    background-color: #0a3622;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #FFC853 solid 1px;
+    border-radius: 32px;
+}
+.nav button {
+    border: none;
+    border-radius: 16px;
+    width: 90px;
+    height: 25px;
+    background-color: #cba841;
+}
