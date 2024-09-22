@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 .A1{
     display: grid;
     grid-template-columns: auto auto auto;
