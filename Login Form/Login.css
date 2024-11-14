@@ -1,0 +1,84 @@
+body{
+    background-color: #fff;
+    background-size: cover;
+    font-family: cursive;
+}
+
+.container{
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: auto auto  ;
+    background-color: rgb(227, 227, 227);
+    border-radius: 15px;
+    width: 70%;
+    height: 60vh;
+    margin: 80px auto auto auto ;
+}
+
+.divOne{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-image: url('BGP.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 100%;
+    font-size: 30px;
+}
+
+.divTow{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #b7c3b7;
+    font-family: cursive;
+}
+
+.Button{
+    width: 255px;
+    height: 25px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4f5b4f;
+    color: #b7c3b7;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.Button:hover{
+    background-color: #293329;
+    color: #b7c3b7 ;
+}
+
+h1{
+    color: #293329;
+    margin: 60px auto auto 10px;
+}
+
+h2{
+    color: #4f5b4f;
+}
+
+p{
+    color: #4f5b4f;
+}
+
+a{
+    color: rgba(41, 51, 41, 0.63);
+    cursor: pointer;
+}
+
+
+

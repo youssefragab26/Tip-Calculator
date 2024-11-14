@@ -10,6 +10,9 @@ body{
     background-image:url("BGP.jpg") ;
     text-align: center;
     align-items: center;
+    /*display: grid;*/
+    /*column-gap: 25px;*/
+    /*grid-template-columns: auto auto auto auto;*/
 }
 .info img{
     width: 250px;
