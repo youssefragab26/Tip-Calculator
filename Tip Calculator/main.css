@@ -1,0 +1,171 @@
+body{
+    text-align: center;
+    align-items: center;
+    background-color: #c4e3e6;
+    font-family: "Dosis", sans-serif;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 1px;
+    margin: 100px auto auto auto;
+    width: 800px;
+    border: 25px solid #fdfdfd;
+    border-radius: 16px;
+}
+.columnOne{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #fdfdfd;
+    width: 400px;
+    text-align: left ;
+    color: #808d8c;
+}
+.bill{
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+.input{
+    border: none;
+    border-radius: 5px;
+    background-color: #f1f6fa;
+}
+#billAmount{
+    width: 90%;
+    height: 30px;
+    color: #004347;
+    font-family: "Dosis", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+#numOfPeople{
+    width: 90%;
+    height: 30px;
+    color: #004347;
+    margin-bottom: 20px;
+    font-family: "Dosis", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.columnTwo{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 400px;
+    background-color: #004347;
+    text-align: left;
+    border: none;
+    border-radius: 8px;
+}
+
+.selectTip button{
+    background-color: #004347;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    width: 29.6%;
+    height: 45px;
+    margin: 5px auto 5px auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.selectTip button:hover{
+    background-color: #25c2ac;
+    color: #004a4b;
+}
+.selectTip button:checked{
+    background-color: #25c2ac;
+    color: #004a4b;
+}
+.selectTip input{
+    background-color: #004347;
+    color: #f1f6f9;
+    text-align: center;
+    width: 30%;
+    height: 40px;
+    margin: 5px auto 5px auto;
+    border: none;
+    border-radius: 9px;
+}
+#custom{
+    background-color: #f1f6f9;
+    color: #567978;
+}
+.TipAmount{
+    display: flex;
+}
+.TipAmount p{
+    color: white;
+
+}
+.TipAmount h1{
+    color: #1fc3ab;
+    margin-left: 40px;
+}
+.result {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.result p {
+    margin: 5px;
+    color: white;
+}
+
+.result .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.resetButton{
+    text-align: center;
+    align-items: center;
+}
+.reset {
+    width: 95%;
+    padding: 10px;
+    background-color: #0d686d;
+    border: none;
+    color: #00494d;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: #9be2da;
+    color: #00494d;
+}
+.result{
+    padding-top: 20px;
+}
+.result span{
+    color: #6f9ca1;
+}
+#amount {
+    margin-left: 10px;
+    font-size: 20px;
+}
+#total{
+    margin-left: 10px;
+    font-size: 20px;
+}
+#valueOne{
+    font-size: 35px;
+    margin-right: 20px;
+    color: #27beaa;
+}
+#valueTwo{
+    font-size: 35px;
+    margin-right: 20px;
+    color: #27beaa;
+}
+.resetButton{
+    padding-top: 25px;
+}
