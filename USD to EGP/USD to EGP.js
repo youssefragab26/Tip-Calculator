@@ -10,3 +10,12 @@ dollar.onkeyup = function(){
 pound.onkeyup = function(){
     dollar.value = pound.value * poundprice;
 }
+const darkMode = document.getElementById("Dark");
+const container = document.getElementById("DP container");
+function DarkMode(){
+    document.body.style.backgroundColor = "#000000";
+    document.body.style.color = "#ffffff";
+    container.style.color = "#ffffff";
+    container.style.backgroundColor = "#000000";
+}
+darkMode.addEventListener('click', DarkMode)
