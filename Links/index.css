@@ -9,9 +9,9 @@ body{
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    margin-top: 75px;
-    margin-left: 420px;
-    margin-right:420px;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto auto auto;
     background-color: #ff6f3c;
     border-radius: 18px;
 }
@@ -29,4 +29,8 @@ body{
     height: 50px;
 
 }
-.B1:hover{background-color: #ffc93c;}
+.B1:hover{
+    background-color: #ffc93c;
+    width: 260px;
+
+}
