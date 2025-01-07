@@ -1,1 +1,0 @@
-![Result.png](Result.png)
